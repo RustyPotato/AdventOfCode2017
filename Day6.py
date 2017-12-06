@@ -1,3 +1,6 @@
+#---------------#
+#     DAY 6     #
+#---------------#
 
 def cycle(LS):
     index = LS.index(max(LS))
@@ -7,6 +10,7 @@ def cycle(LS):
         LS[(index+i)%len(LS)] += 1
         
 
+## Part 1
 seenPossibilities = set()
 currentState = [4,10,4,1,8,4,9,14,5,1,14,15,0,15,3,5]
 totalCycles = 0
@@ -17,7 +21,7 @@ while (tuple(currentState) not in seenPossibilities):
 print("Total cycles =", totalCycles)
 
 
-
+## Part 2
 seenPossibilities = dict()
 currentState = [4,10,4,1,8,4,9,14,5,1,14,15,0,15,3,5]
 totalCycles = 0
@@ -25,9 +29,7 @@ while (tuple(currentState) not in seenPossibilities):
     totalCycles += 1
     seenPossibilities[tuple(currentState)] = totalCycles
     cycle(currentState)
-print("CurrentState =", currentState)
 print("Previously seen =", seenPossibilities[tuple(currentState)])
-print("Total cycles =", totalCycles)
-print("Cycles since last seen =", totalCycles-seenPossibilities[tuple(currentState)])
+print("Cycles since last seen =", totalCycles-seenPossibilities[tuple(currentState)]+1)
 
 
