@@ -14,3 +14,33 @@ be sure to follow the license.
 ### Improvements
 I really need to comment this code eventually. Right now it's a mess. I'll 
 see if I can either do it while competing or after the competition. 
+
+### Checklist
+| Day | Check 1 | Check 2 |
+|-----|---------|---------|
+| 1 | - [x] | - [x] |
+| 2 | - [x] | - [x] |
+| 3 | - [x] | - [x] |
+| 4 | - [x] | - [x] |
+| 5 | - [x] | - [x] |
+| 6 | - [x] | - [x] |
+| 7 | - [x] | - [x] |
+| 8 | - [x] | - [x] |
+| 9 | - [x] | - [x] |
+| 10 | - [ ] | - [ ] |
+| 11 | - [x] | - [ ] |
+| 12 | - [ ] | - [ ] |
+| 13 | - [ ] | - [ ] |
+| 14 | - [ ] | - [ ] |
+| 15 | - [ ] | - [ ] |
+| 16 | - [x] | - [ ] |
+| 17 | - [ ] | - [ ] |
+| 18 | - [ ] | - [ ] |
+| 19 | - [ ] | - [ ] |
+| 20 | - [ ] | - [ ] |
+| 21 | - [ ] | - [ ] |
+| 22 | - [ ] | - [ ] |
+| 23 | - [ ] | - [ ] |
+| 24 | - [ ] | - [ ] |
+| 25 | - [ ] | - [ ] |
+
