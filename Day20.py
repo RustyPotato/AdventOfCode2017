@@ -1022,4 +1022,31 @@ for index in range(len(inData)):
 print("The slowest accelerating particle was particle", minParticle)
 
 
+## Part 2
+## It seems to have stabilized after 100 ticks, but this won't always be the case. 
+## Further extensions should find a way to deterministically find the number needed.
+for tick in range(100):
+    for elem in inData:
+        # Increase the velocities by the accelerations
+        elem[1][0] += elem[2][0]
+        elem[1][1] += elem[2][1]
+        elem[1][2] += elem[2][2]
+        # Increment the positions by the velocities. 
+        elem[0][0] += elem[1][0]
+        elem[0][1] += elem[1][1]
+        elem[0][2] += elem[1][2]
+    
+    indicesToRemove = set()
+    for index1 in range(len(inData)):
+        for index2 in range(index1+1, len(inData)):
+            if (inData[index1][0] == inData[index2][0]):
+                indicesToRemove.add(index1)
+                indicesToRemove.add(index2)
+    
+    indicesToRemove = list(indicesToRemove)
+    indicesToRemove.sort(reverse = True)
+    print("There were", (len(indicesToRemove)), "collisions this tick. ", end='')
+    for i in range(len(indicesToRemove)):
+        inData.pop(indicesToRemove[i])
+    print("That leaves", len(inData), "elements left.")
     
