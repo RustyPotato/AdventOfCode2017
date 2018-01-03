@@ -32,7 +32,7 @@ see if I can either do it while competing or after the competition.
 | 12 |   |   |
 | 13 |   |   |
 | 14 |   |   |
-| 15 |   |   |
+| 15 | X |   |
 | 16 | X |   |
 | 17 | X |   |
 | 18 | X |   |
