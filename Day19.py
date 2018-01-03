@@ -65,8 +65,6 @@ checkpoints = ""
 counter = 0
 while (True): 
     # Usual operations at every step. 
-    print("Step", counter)
-    #printMap(maze, cX, cY)
     counter += 1
     if (ord(maze[cY][cX]) > 64 and ord(maze[cY][cX]) < 123):
         checkpoints += maze[cY][cX]
@@ -85,3 +83,4 @@ while (True):
         
     
 print("Checkpoints passed were:", checkpoints)
+print("Total steps =", counter)
