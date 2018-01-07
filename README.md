@@ -38,7 +38,7 @@ see if I can either do it while competing or after the competition.
 | 18 | X |   |
 | 19 | X | X |
 | 20 | X | X |
-| 21 |   |   |
+| 21 | X | X |
 | 22 |   |   |
 | 23 |   |   |
 | 24 |   |   |
